@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Me!</title>
+	<style>
+
+		/* selectors (About Me)*/
+		h1 {
+			font-size: 40px;
+			text-align: center;
+			margin-top: 50px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+		}
+
+        /* text properties, padding & margin */
+		p, li {
+			font-size: 17px;
+            font-weight: 100;
+			line-height: 1.5;
+			margin: 0;
+			padding: 0;
+		}
+
+		ul li:nth-child(odd) {
+			font-weight: bold;
+            font-style: italic;
+		}
+
+        /* background sizings, image, and colour 
+        I am implementing the requirements for lab 4
+        onto this new image because I did not previously have
+        an image on my lab 1 submission. */
+
+		.wrapper {
+            background-image: url('cream.jpg');
+            background-size: 100%; /*adjusting image to containers width */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /*image staying fixed for a responsive scrolling effect*/
+            filter: brightness(80%) contrast(130%) saturate(140%);
+			background-color: #fccaf1; 
+			width: 80vw; /* width to 80% of viewports width */
+			margin: 0 auto;
+			padding: 20px;
+            border: 8px solid #7D4F50; /*border is 8px and has colour from the coolers site */
+		}
+
+        .header-image {
+            display:block;
+            margin: 0 auto;
+            width: 90%;
+            height: 10%;
+        }
+
+		/* additional class */
+		.personal-info {
+			margin-bottom: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		}
+
+		/* global styles */
+		body {
+			color: #333;
+		}
+
+		/* exception */
+		p {
+			color: initial;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<h1>About Me</h1>
+        <img class="header-image" src="hdr.jpg" alt="Header Image">
+		<div class="personal-info">
+			<p>Name: Baran Akhavan- Yekta</p>
+			<p>Age: 18</p>
+			<p>Birthday: September 15, 2004</p>
+		</div>
+		<p>Hi, my name is Baran Akhavan-Yekta. I have been living in Canada for about 11 years now. 
+            I enjoy spending time with my loved ones. I have never had pets before and I love 
+            decorating and organizing! The rest of this is going to be random words to fill space.
+            A long black shadow slid across the pavement near their feet and the five Venusians, 
+            very much startled, looked overhead. They were barely in time to see the huge gray 
+            form of the carnivore before it vanished behind a sign atop a nearby building which 
+            bore the mystifying information "Pepsi-Cola."He had done everything right. There had 
+            been no mistakes throughout the entire process. It had been perfection and he knew it 
+            without a doubt, but the results still stared back at him with the fact that he had lost.
+            It's always good to bring a slower friend with you on a hike. If you happen to come across 
+            bears, the whole group doesn't have to worry. Only the slowest in the group do. That was 
+            the lesson they were about to learn that day."Begin today!" That's all the note said. There 
+            was no indication from where it came or who may have written it. Had it been meant for someone 
+            else? Meghan looked around the room, but nobody made eye contact back. For a brief moment, 
+            she thought it might be a message for her to follow her dreams, but ultimately decided it was 
+            easier to ignore it as she crumpled it up and threw it away.
+        </p>
+		<ul>
+			<li>Hobbies: Tanning, Working out, Travelling, Shopping, Driving</li>
+			<li>Siblings: Younger sister</li>
+			<li>Favorite drink: Chocolate milkshake, Mojito, Latte</li>
+			<li>Favorite food: Pizza, Sushi, Burgers, Alfredo</li>
+			<li>Favorite Fruit: Watermelon, Cherries, Mangos, Grapes, All Berries!</li>
+		</ul>
+	</div>
+</body>
+</html>
+
